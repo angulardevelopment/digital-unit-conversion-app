@@ -1,7 +1,7 @@
 # About
 
-Digital Storage Units app
-
+Digital Storage Unit Conversion
+Number Conversion 
 # DigitalUnits
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.

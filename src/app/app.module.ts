@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BiteComponent } from './bite/bite.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DigitComponent } from './digit/digit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BiteComponent
+    BiteComponent,
+    DigitComponent
   ],
   imports: [
     BrowserModule,
