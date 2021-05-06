@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "digital-units"
+  "defaultProject": "digital-units",
+  "cli": {
+    "analytics": false
+  }
 }
