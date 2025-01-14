@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "digital-units:build"
+            "buildTarget": "digital-units:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "digital-units:build:production"
+              "buildTarget": "digital-units:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "digital-units:build"
+            "buildTarget": "digital-units:build"
           }
         },
         "test": {

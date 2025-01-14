@@ -4,7 +4,8 @@ import { FormGroup, FormControl } from '@angular/forms';
 @Component({
   selector: 'app-digit',
   templateUrl: './digit.component.html',
-  styleUrls: ['./digit.component.scss']
+  styleUrls: ['./digit.component.scss'],
+  standalone:false
 })
 export class DigitComponent implements OnInit {
 

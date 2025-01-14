@@ -4,7 +4,8 @@ import { FormGroup, FormControl } from '@angular/forms';
 @Component({
   selector: 'app-bite',
   templateUrl: './bite.component.html',
-  styleUrls: ['./bite.component.scss']
+  styleUrls: ['./bite.component.scss'],
+  standalone:false
 })
 export class BiteComponent implements OnInit {
 
